@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5505e44-a333-4f25-8da5-1befed276d35" name="Changes" comment="initial structure of code">
+    <list default="true" id="a5505e44-a333-4f25-8da5-1befed276d35" name="Changes" comment="added methods to MyHashTable class">
       <change afterPath="$PROJECT_DIR$/../ads2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../adsassig2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hackerrank" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../oopproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hash/MyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/MyHashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -64,8 +65,17 @@
       <option name="presentableId" value="Default" />
       <updated>1714665462747</updated>
       <workItem from="1714665464639" duration="1193000" />
-      <workItem from="1714803049002" duration="789000" />
+      <workItem from="1714803049002" duration="10292000" />
     </task>
+    <task id="LOCAL-00001" summary="added methods to MyHashTable class">
+      <option name="closed" value="true" />
+      <created>1714846360109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714846360109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial structure of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial structure of code" />
+    <MESSAGE value="added methods to MyHashTable class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added methods to MyHashTable class" />
   </component>
 </project>
