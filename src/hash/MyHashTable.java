@@ -43,20 +43,29 @@ public class MyHashTable<K, V> {
     }
 
 
-    private int hashCode(K key) {
+    private int hash(K key) {
         return Objects.hashCode(key);
     }
 
 
     private int getIndex(K key) {
-        int hashCode = hashCode(key);
+        int hashCode = hash(key);
         return Math.abs(hashCode) % defaultCapacity;
+    }
+
+    public K getKey(V value) {
+        for (HashNode<K, V> node : chainArray)
+            while (node != null) {
+                if (node.value.equals(value)) return node.key;
+                node = node.next;
+            }
+        return null;
     }
 
 
     public V remove(K key) {
         int index = getIndex(key);
-        int hashCode = hashCode(key);
+        int hashCode = hash(key);
 
         HashNode<K, V> head = chainArray.get(index);
         HashNode<K, V> prev = null;
@@ -84,7 +93,7 @@ public class MyHashTable<K, V> {
 
     public V getValueByKey(K key) {
         int index = getIndex(key);
-        int hashCode = hashCode(key);
+        int hashCode = hash(key);
 
         HashNode<K, V> head = chainArray.get(index);
 
@@ -98,7 +107,7 @@ public class MyHashTable<K, V> {
 
     public void put(K key, V value) {
         int index = getIndex(key);
-        int hashCode = hashCode(key);
+        int hashCode = hash(key);
         HashNode<K, V> head = chainArray.get(index);
 
         while (head != null) {
@@ -141,5 +150,12 @@ public class MyHashTable<K, V> {
             }
         }
     }
+
+    public boolean contains(V value) {
+        if (getKey(value) != null) {
+            return true;
+        } else return false;
+    }
+
 }
 
