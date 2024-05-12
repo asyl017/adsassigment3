@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5505e44-a333-4f25-8da5-1befed276d35" name="Changes" comment="implemented methods to MyHashTable class">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a5505e44-a333-4f25-8da5-1befed276d35" name="Changes" comment="added methods to MyHashTable class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hash/MyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/MyHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,8 @@
       <workItem from="1714665464639" duration="1193000" />
       <workItem from="1714803049002" duration="16033000" />
       <workItem from="1715277474743" duration="304000" />
-      <workItem from="1715277784268" duration="1878000" />
+      <workItem from="1715277784268" duration="5912000" />
+      <workItem from="1715438524295" duration="8677000" />
     </task>
     <task id="LOCAL-00001" summary="added methods to MyHashTable class">
       <option name="closed" value="true" />
@@ -99,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715196594792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added methods to MyHashTable class">
+      <option name="closed" value="true" />
+      <created>1715363766464</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715363766464</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,8 +118,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="initial structure of code" />
-    <MESSAGE value="added methods to MyHashTable class" />
     <MESSAGE value="implemented methods to MyHashTable class" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented methods to MyHashTable class" />
+    <MESSAGE value="added methods to MyHashTable class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added methods to MyHashTable class" />
   </component>
 </project>
