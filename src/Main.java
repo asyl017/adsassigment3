@@ -21,11 +21,13 @@ public class Main {
         bst.put(31, 2);
         bst.put(3, 22);
         bst.put(1, 15);
+        bst.put(100,121);
         bst.put(99, 31);
         System.out.println(bst.findSmallestValue());
         bst.remove(12);
         System.out.print("bst after remove: ");
         bst.inorderTraversal();
         System.out.println("Element with key 99" + bst.get(99));
+
     }
 }
