@@ -1,8 +1,10 @@
 import tree.BST;
 
+import java.util.Hashtable;
+
 public class Main {
     public static void main(String[] args) {
-       /* Hashtable<String, Integer> hashtable = new Hashtable<>();
+       Hashtable<String, Integer> hashtable = new Hashtable<>();
         hashtable.put("Kevin Levrone", 21);
         hashtable.put("Naser El Sonbaty", 1);
         hashtable.put("Dorian Yates", 22);
@@ -12,7 +14,7 @@ public class Main {
 
         System.out.println(hashtable);
         System.out.println(hashtable.contains(31));
-        */
+
 
         BST<Integer, Integer> bst = new BST<>();
         bst.put(12, 21);
