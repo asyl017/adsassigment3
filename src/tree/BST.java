@@ -96,11 +96,9 @@ public class BST<K extends Comparable<K>, V> {
         else if (compareKeys > 0)
             current.right = remove(current.right, key);
         else {
-            //case 1: no child
             if (current.left == null && current.right == null)
                 return null;
 
-            //case 2: only one child
 
             if (current.left == null)
                 return current.right;

@@ -1,10 +1,10 @@
-package test.hash;
+package test.tree;
 
-public class MyKeyClass  {
+public  class MyBSTKey implements Comparable<MyBSTKey> {
     private int primaryKey;
 
 
-    public MyKeyClass(int primaryKey) {
+    public MyBSTKey(int primaryKey) {
         this.primaryKey = primaryKey;
     }
 
@@ -13,5 +13,10 @@ public class MyKeyClass  {
         int temp = primaryKey;
         temp >>>= 1;
         return temp ^ 0xaaaaaaaa;
+    }
+
+    @Override
+    public int compareTo(MyBSTKey o) {
+        return 0;
     }
 }
