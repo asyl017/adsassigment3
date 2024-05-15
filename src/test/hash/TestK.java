@@ -8,7 +8,7 @@ import hash.MyHashTable;
 public class TestK {
     /**
      * Executes a test scenario for the MyHashTable class.
-     * This method populates a hash table with instances of MyKeyClass as keys
+     * This method populates a hash table with instances of MyTestingClass as keys
      * and MyStudent as values, and then performs operations on the hash table.
      */
     public static void addRandom() {
@@ -22,8 +22,4 @@ public class TestK {
         }
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
 }

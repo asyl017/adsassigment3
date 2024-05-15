@@ -10,8 +10,8 @@ import tree.BST;
 
 public class TestBST {
     /**
-     * Executes a test scenario for the MyHashTable class.
-     * This method populates a hash table with instances of MyKeyClass as keys
+     * Executes a test scenario for the BST class.
+     * This method populates a hash table with instances of MyTestingClass as keys
      * and MyStudent as values, and then performs operations on the hash table.
      */
     public static void addRandom() {

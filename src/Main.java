@@ -3,6 +3,7 @@
  * This class contains a main method where instances of Hashtable, BST, and custom implementations are tested.
  */
 
+import hash.MyHashTable;
 import test.hash.TestK;
 import test.tree.TestBST;
 import tree.BST;
@@ -26,6 +27,7 @@ public class Main {
         hashtable.put("Branch Worren", 31);
 
 
+        hashtable.remove("Branch Worren");
         System.out.println(hashtable);
         System.out.println(hashtable.contains(31));
 
@@ -45,10 +47,12 @@ public class Main {
         bst.inorderTraversal();
         System.out.println("Element with key 99 " + bst.get(99));
 
+
+
         // Testing custom hashtable implementation
         TestK ht = new TestK();
         ht.addRandom();
-        ht.toString();
+
         // Testing custom BST implementation
         TestBST bsTree = new TestBST();
         bsTree.addRandom();

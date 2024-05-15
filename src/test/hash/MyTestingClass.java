@@ -7,7 +7,7 @@ public class MyTestingClass implements Comparable<MyTestingClass> {
     private int primaryKey;
 
     /**
-     * Constructs a new instance of MyKeyClass with the specified key.
+     * Constructs a new instance of MyTestingClass with the specified key.
      *
      * @param primaryKey the  key value to be used for hashing
      */

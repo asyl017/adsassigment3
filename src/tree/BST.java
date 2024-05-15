@@ -114,15 +114,6 @@ public class BST<K extends Comparable<K>, V> {
     }
 
     /**
-     * Get an iterator for the tree.
-     *
-     * @return An iterator for traversing the tree.
-     */
-    public Iterable<K> iterator() {
-        return iterator();
-    }
-
-    /**
      * Find the key of the smallest node in the tree.
      *
      * @return The key of the smallest node, or null if tree is empty.
