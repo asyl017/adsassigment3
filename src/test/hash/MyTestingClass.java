@@ -3,7 +3,7 @@
  */
 package test.hash;
 
-public class MyKeyClass {
+public class MyTestingClass implements Comparable<MyTestingClass> {
     private int primaryKey;
 
     /**
@@ -11,7 +11,7 @@ public class MyKeyClass {
      *
      * @param primaryKey the  key value to be used for hashing
      */
-    public MyKeyClass(int primaryKey) {
+    public MyTestingClass(int primaryKey) {
         this.primaryKey = primaryKey;
     }
 
@@ -28,5 +28,10 @@ public class MyKeyClass {
         int temp = primaryKey;
         temp >>>= 1;
         return temp ^ 0xbbbbbbbb;
+    }
+
+    @Override
+    public int compareTo(MyTestingClass o) {
+        return Integer.compare(this.primaryKey, o.primaryKey);
     }
 }

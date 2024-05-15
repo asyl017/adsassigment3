@@ -3,21 +3,27 @@
  */
 package test.tree;
 
+import hash.MyHashTable;
+import test.hash.MyTestingClass;
+import test.hash.MyStudent;
 import tree.BST;
 
 public class TestBST {
-    // Binary Search Tree instance to be tested
-    BST<MyBSTKey, MyValue> bst = new BST();
-
     /**
-     * Adds a random set of key-value pairs to the BST for testing purposes.
-     * This method populates the BST with 10000 entries using random keys and values.
+     * Executes a test scenario for the MyHashTable class.
+     * This method populates a hash table with instances of MyKeyClass as keys
+     * and MyStudent as values, and then performs operations on the hash table.
      */
-    public void addRandom() {
-        for (int i = 0; i < 10000; i++) {
-            MyBSTKey myKey = new MyBSTKey(i ^ 0xaaaaaaaa);
-            MyValue myValue = new MyValue(i);
-            bst.put(myKey, myValue);
+    public static void addRandom() {
+        // Create a new instance of MyHashTable with MyKeyClass as keys and MyStudent as values
+        BST<MyTestingClass, MyStudent> hashtable = new BST<>();
+        // Populate the hash table with 100000 entries
+        for (int i = 0; i < 100000; i++) {
+            MyTestingClass myKey = new MyTestingClass(i ^ 0xaaaaaaaa);
+            MyStudent myValue = new MyStudent(i);
+            hashtable.put(myKey, myValue);
         }
     }
+
 }
+
