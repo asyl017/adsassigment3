@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5505e44-a333-4f25-8da5-1befed276d35" name="Changes" comment="implemented BST class and added its documentation">
-      <change afterPath="$PROJECT_DIR$/src/test/tree/MyBSTKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/tree/MyValue.java" afterDir="false" />
+    <list default="true" id="a5505e44-a333-4f25-8da5-1befed276d35" name="Changes" comment="created test class for BST and MyHastable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/hash/MyKeyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hash/MyKeyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/hash/MyStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hash/MyStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/hash/TestMyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hash/TestMyHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tree/MyBSTKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tree/MyBSTKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tree/MyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tree/MyValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/tree/TestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tree/TestBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BST.java" afterDir="false" />
     </list>
@@ -102,7 +102,8 @@
       <workItem from="1715277784268" duration="5912000" />
       <workItem from="1715438524295" duration="10626000" />
       <workItem from="1715565980819" duration="33000" />
-      <workItem from="1715566863415" duration="7571000" />
+      <workItem from="1715566863415" duration="9661000" />
+      <workItem from="1715695000404" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="added methods to MyHashTable class">
       <option name="closed" value="true" />
@@ -160,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715521186714</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created test class for BST and MyHastable">
+      <option name="closed" value="true" />
+      <created>1715676749408</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715676749408</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +196,7 @@
     <MESSAGE value="implemented BST class" />
     <MESSAGE value="tests in main" />
     <MESSAGE value="implemented BST class and added its documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented BST class and added its documentation" />
+    <MESSAGE value="created test class for BST and MyHastable" />
+    <option name="LAST_COMMIT_MESSAGE" value="created test class for BST and MyHastable" />
   </component>
 </project>
